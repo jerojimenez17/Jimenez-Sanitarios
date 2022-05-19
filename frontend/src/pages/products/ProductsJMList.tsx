@@ -135,7 +135,7 @@ const ProductsJMList: React.FC = () => {
             <IonMenuButton />
           </IonButtons>
           <div>
-            <IonButton onClick={openCart}>
+            <IonButton onClick={()=> setModalOpen(true)}>
               <IonIcon icon={cart} />
             </IonButton>
           </div>
